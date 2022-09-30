@@ -1,5 +1,5 @@
 <?php
-// Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
+// Gallery extension, https://github.com/annaesvensson/yellow-gallery
 
 class YellowGallery {
     const VERSION = "0.8.17";

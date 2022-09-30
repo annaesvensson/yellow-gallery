@@ -1,4 +1,4 @@
-// Gallery extension, https://github.com/datenstrom/yellow-extensions/tree/master/source/gallery
+// Gallery extension, https://github.com/annaesvensson/yellow-gallery
 
 var initPhotoSwipeFromDOM = function() {
 
