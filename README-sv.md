@@ -73,4 +73,4 @@ Detta tilläg använder [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photosw
 
 ## Utvecklare
 
-Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).

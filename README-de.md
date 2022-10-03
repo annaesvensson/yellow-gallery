@@ -72,4 +72,4 @@ Diese Erweiterung benutzt [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photo
 
 ## Entwickler
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
