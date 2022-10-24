@@ -68,7 +68,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 [Download extension](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
-This extension uses [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov.
+This extension includes [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov.
 
 ## Developer
 

@@ -69,7 +69,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 [Ladda ner tillägg](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-Detta tilläg använder [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov.
+Detta tilläg innehåller [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov.
 
 ## Utvecklare
 
