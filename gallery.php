@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/annaesvensson/yellow-gallery
 
 class YellowGallery {
-    const VERSION = "0.8.17";
+    const VERSION = "0.8.18";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -17,10 +17,10 @@ class YellowGallery {
         $output = null;
         if ($name=="gallery" && ($type=="block" || $type=="inline")) {
             list($pattern, $sorting, $style, $size) = $this->yellow->toolbox->getTextArguments($text);
-            if (empty($sorting)) $sorting = $this->yellow->system->get("gallerySorting");
-            if (empty($style)) $style = $this->yellow->system->get("galleryStyle");
-            if (empty($size)) $size = "100%";
-            if (empty($pattern)) {
+            if (is_string_empty($sorting)) $sorting = $this->yellow->system->get("gallerySorting");
+            if (is_string_empty($style)) $style = $this->yellow->system->get("galleryStyle");
+            if (is_string_empty($size)) $size = "100%";
+            if (is_string_empty($pattern)) {
                 $pattern = "unknown";
                 $files = $this->yellow->media->clean();
             } else {
@@ -30,7 +30,7 @@ class YellowGallery {
                 elseif ($sorting=="size") $files->sort("size", false);
             }
             if ($this->yellow->extension->isExisting("image")) {
-                if (count($files)) {
+                if (!is_array_empty($files)) {
                     $page->setLastModified($files->getModified());
                     $output = "<div class=\"".($style!="simple" ? "photoswipe" : "gallery")."\" data-fullscreenel=\"false\" data-shareel=\"false\" data-history=\"false\"";
                     if (substru($size, -1, 1)!="%") $output .= " data-thumbsquare=\"true\"";
@@ -40,7 +40,7 @@ class YellowGallery {
                         list($widthInput, $heightInput) = $this->yellow->toolbox->detectImageInformation($file->fileName);
                         if (!$widthInput || !$heightInput) $widthInput = $heightInput = "500";
                         $caption = $this->yellow->language->isText($file->fileName) ? $this->yellow->language->getText($file->fileName) : "";
-                        $alt = empty($caption) ? basename($file->getLocation(true)) : $caption;
+                        $alt = is_string_empty($caption) ? basename($file->getLocation(true)) : $caption;
                         $output .= "<a href=\"".$file->getLocation(true)."\"";
                         $output .= " data-size=\"".htmlspecialchars("{$widthInput}x{$heightInput}")."\"";
                         $output .= " data-caption=\"".htmlspecialchars($caption)."\"";
