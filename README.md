@@ -21,7 +21,7 @@ The image formats GIF, JPG, PNG and SVG are supported. All media files are locat
 
 ## How to show image captions
 
-Image captions can be configured in the language settings. Open file `system/extensions/yellow-language.ini` and add a new line for each image. A line consists of file name and description.
+Image captions can be configured in the language settings. Open file `system/extensions/yellow-language.ini` and add a new line for each image. A line consists of file name and description. The image caption is displayed when you click on an image or use a screen reader.
 
 ## Examples
 
@@ -54,7 +54,7 @@ Configuring image captions in the language settings:
     Language: en
     media/images/photo.jpg: This is an example image
     media/images/photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
-    media/images/photo-2391666-start-painting.jpg: Watercolors, brushes and paper. Photo: Tim Arterbury
+    media/images/photo-2493837-lake-and-forest.jpg: Lake and forest in the summer. Photo: Anatoliy Gromov
     media/images/photo-album/screenshot-2020-01.png: A small website by Adam Engel from Sweden.
 
 ## Settings

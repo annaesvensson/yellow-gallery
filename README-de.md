@@ -21,7 +21,7 @@ Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien be
 
 ## Wie man Bildunterschriften anzeigt
 
-Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne die Datei `system/extensions/yellow-language.ini` und füge für jedes Bild eine neue Zeile hinzu. Eine Zeile besteht aus Dateinamen und Beschreibung.
+Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne die Datei `system/extensions/yellow-language.ini` und füge für jedes Bild eine neue Zeile hinzu. Eine Zeile besteht aus Dateinamen und Beschreibung. Die Bildunterschrift wird angezeigt wenn man auf ein Bild klickt oder einen Bildschirmvorleser verwendet.
 
 ## Beispiele
 
@@ -54,7 +54,7 @@ Bildunterschriften in den Spracheinstellungen festlegen:
     Language: de
     media/images/photo.jpg: Das ist ein Beispielbild
     media/images/photo-2387365-fika-time.jpg: Fika ist ein wichtiger Teil des Lebens in Schweden. Bild: Taylor Franz
-    media/images/photo-2391666-start-painting.jpg: Aquarellfarben, Pinsel und Papier. Bild: Tim Arterbury
+    media/images/photo-2493837-lake-and-forest.jpg: See und Wald im Sommer. Bild: Anatoliy Gromov
     media/images/photo-album/screenshot-2020-01.png: Eine kleine Webseite von Adam Engel aus Schweden.
 
 ## Einstellungen

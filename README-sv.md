@@ -22,7 +22,7 @@ Mappen `media/images` är platsen för att lagra dina bilder. Mappen `media/thum
 
 ## Hur man visar bildtexter
 
-Bildtexter kan konfigureras i språkinställningarna. Öppna filen `system/extensions/yellow-language.ini` och lägg till en ny rad för varje bild. En rad består av filnamn och beskrivning.
+Bildtexter kan konfigureras i språkinställningarna. Öppna filen `system/extensions/yellow-language.ini` och lägg till en ny rad för varje bild. En rad består av filnamn och beskrivning. Bildtexten visas när du klickar på en bild eller använder en skärmläsare.
 
 ## Exempel
 
@@ -55,7 +55,7 @@ Konfigurera bildtexter i språkinställningarna:
     Language: sv
     media/images/photo.jpg: Detta är en exempelbild
     media/images/photo-2387365-fika-time.jpg: Fika är en viktig del av vardagen i Sverige. Bild: Taylor Franz
-    media/images/photo-2391666-start-painting.jpg: Akvareller, penslar och papper. Bild: Tim Arterbury
+    media/images/photo-2493837-lake-and-forest.jpg: Sjö och skog på sommaren. Bild: Anatoliy Gromov
     media/images/photo-album/screenshot-2020-01.png: En liten webbplats av Adam Engel från Sverige.
 
 ## Inställningar
