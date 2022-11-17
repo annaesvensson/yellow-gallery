@@ -66,7 +66,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 ## Acknowledgments
 
-This extension includes [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. Thanks for the great work.
+This extension includes [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. Thank you for the good work.
 
 ## Installation
 
