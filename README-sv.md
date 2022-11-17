@@ -65,11 +65,13 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 `GallerySorting` = gallerisortering, t.ex. `name`, `modified`, `size`  
 `GalleryStyle` = galleristil, t.ex. `zoom`, `simple`  
 
+## Tack
+
+Detta tilläg innehåller [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov. Tack för det fantastiska arbetet.
+
 ## Installation
 
 [Ladda ner tillägg](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
-
-Detta tilläg innehåller [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov.
 
 ## Utvecklare
 
