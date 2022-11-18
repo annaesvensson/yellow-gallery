@@ -64,7 +64,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 `GallerySorting` = gallery sorting, e.g. `name`, `modified`, `size`  
 `GalleryStyle` = gallery style, e.g. `zoom`, `simple`  
 
-## Acknowledgments
+## Acknowledgements
 
 This extension includes [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. Thank you for the good work.
 
