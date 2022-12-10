@@ -6,6 +6,10 @@ Image gallery with popup.
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) and copy it file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to add an image gallery
 
 Create a `[gallery]` shortcut.
@@ -67,10 +71,6 @@ The following settings can be configured in file `system/extensions/yellow-syste
 ## Acknowledgements
 
 This extension includes [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) by Dmitry Semenov. Thank you for the good work.
-
-## Installation
-
-[Download extension](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## Developer
 

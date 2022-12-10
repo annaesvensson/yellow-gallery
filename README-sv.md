@@ -6,6 +6,10 @@ Bildgalleri med popup.
 
 <p align="center"><img src="gallery-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-fil](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man lägger till ett bildgalleri
 
 Skapa en `[gallery]` förkortning.
@@ -68,10 +72,6 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 ## Tack
 
 Detta tilläg innehåller [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov. Tack för ett bra jobb.
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 
