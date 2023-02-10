@@ -71,7 +71,7 @@ Följande inställningar kan konfigureras i filen `system/extensions/yellow-syst
 
 ## Tack
 
-Detta tilläg innehåller [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov. Tack för ett bra jobb.
+Detta tillägg innehåller [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) av Dmitry Semenov. Tack för ett bra jobb.
 
 ## Utvecklare
 
