@@ -8,7 +8,7 @@ Image gallery with popup.
 
 ## How to install an extension
 
-[Download ZIP file](https://github.com/annaesvensson/yellow-gallery/archive/main.zip) and copy it file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+[Download ZIP file](https://github.com/annaesvensson/yellow-gallery/archive/refs/heads/main.zip) and copy it file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 ## How to add an image gallery
 
