@@ -4,7 +4,7 @@
 
 Bildergalerie mit Popup.
 
-<p align="center"><img src="gallery-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
+<p align="center"><img src="SCREENSHOT.png?raw=true" alt="Bildschirmfoto"></p>
 
 ## Wie man eine Erweiterung installiert
 

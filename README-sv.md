@@ -4,7 +4,7 @@
 
 Bildgalleri med popup.
 
-<p align="center"><img src="gallery-screenshot.png?raw=true" alt="Skärmdump"></p>
+<p align="center"><img src="SCREENSHOT.png?raw=true" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
