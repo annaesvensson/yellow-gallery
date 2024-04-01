@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/annaesvensson/yellow-gallery
 
 class YellowGallery {
-    const VERSION = "0.8.18";
+    const VERSION = "0.8.19";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -12,8 +12,8 @@ class YellowGallery {
         $this->yellow->system->setDefault("galleryStyle", "zoom");
     }
     
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
+    // Handle page content element
+    public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="gallery" && ($type=="block" || $type=="inline")) {
             list($pattern, $sorting, $style, $size) = $this->yellow->toolbox->getTextArguments($text);
