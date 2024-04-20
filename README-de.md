@@ -21,7 +21,7 @@ Die folgenden Argumente sind verfügbar, alle bis auf das erste Argument sind op
 `Style` = Galeriestil, z.B. `zoom`, `simple`  
 `Size` = Bildgröße, Pixel oder Prozent  
 
-Die Bildformate GIF, JPG, PNG und SVG werden unterstützt. Alle Mediendateien befinden sich im `media`-Verzeichnis. Das `media/images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `media/thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will.
+Die Bildformate GIF, JPEG, PNG und SVG werden unterstützt. Alle Mediendateien befinden sich im `media`-Verzeichnis. Das `media/images`-Verzeichnis ist zum Speichern von Bildern gedacht. Das `media/thumbnails`-Verzeichnis enthält Miniaturbilder. Man kann auch weitere Verzeichnisse hinzufügen und Dateien so organisieren wie man will.
 
 ## Wie man Bildunterschriften anzeigt
 
