@@ -29,6 +29,15 @@ Image captions can be configured in the language settings. Open file `system/ext
 
 ## Examples
 
+Content file with image gallery:
+
+    ---
+    Title: Example page
+    ---
+    This is an example page with image gallery.
+
+    [gallery photo.*jpg]
+
 Adding an image gallery, different sortings:
 
     [gallery photo.*jpg name]
@@ -60,6 +69,14 @@ Configuring image captions in the language settings:
     media/images/photo-2387365-fika-time.jpg: Fika is an important part of life in Sweden. Photo: Taylor Franz
     media/images/photo-2493837-lake-and-forest.jpg: Lake and forest in the summer. Photo: Anatoliy Gromov
     media/images/photo-album/screenshot-2020-01.png: A small website by Adam Engel from Sweden.
+
+Selecting file names with a regular expression:
+
+`photo.*jpg` = image files starting with "photo" followed by whatever and "jpg"  
+`photo.*jpeg` = image files starting with "photo" followed by whatever and "jpeg"  
+`photo-album/` = image files from subfolder "photo-album" followed by whatever  
+`photo-album` = image files starting with "photo-album" followed by whatever  
+`.*` = all image files  
 
 ## Settings
 

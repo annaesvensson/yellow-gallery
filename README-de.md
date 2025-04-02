@@ -29,6 +29,15 @@ Bildunterschriften können in den Spracheinstellungen festgelegt werden. Öffne 
 
 ## Beispiele
 
+Inhaltsdatei mit Bildergalerie:
+
+    ---
+    Title: Beispielseite
+    ---
+    Das ist eine Beispielseite mit Bildergalerie.
+
+    [gallery photo.*jpg]
+
 Bildergalerie hinzufügen, unterschiedliche Sortierungen:
 
     [gallery photo.*jpg name]
@@ -60,6 +69,14 @@ Bildunterschriften in den Spracheinstellungen festlegen:
     media/images/photo-2387365-fika-time.jpg: Fika ist ein wichtiger Teil des Lebens in Schweden. Bild: Taylor Franz
     media/images/photo-2493837-lake-and-forest.jpg: See und Wald im Sommer. Bild: Anatoliy Gromov
     media/images/photo-album/screenshot-2020-01.png: Eine kleine Webseite von Adam Engel aus Schweden.
+
+Dateinamen mit einem regulären Ausdruck auswählen:
+
+`photo.*jpg` = Bilddateien die mit "photo" beginnen, gefolgt von irgendetwas und "jpg"  
+`photo.*jpeg` = Bilddateien die mit "photo" beginnen, gefolgt von irgendetwas und "jpeg"  
+`photo-album/` = Bilddateien aus dem Unterverzeichnis "photo-album", gefolgt von irgendetwas  
+`photo-album` = Bilddateien die mit "photo-album" beginnen, gefolgt von irgendetwas  
+`.*` = alle Bilddateien  
 
 ## Einstellungen
 

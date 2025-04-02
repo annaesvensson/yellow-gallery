@@ -30,6 +30,15 @@ Bildtexter kan konfigureras i språkinställningarna. Öppna filen `system/exten
 
 ## Exempel
 
+Innehållsfil med bildgalleri:
+
+    ---
+    Title: Exempelsida
+    ---
+    Detta är en exempelsida med bildgalleri.
+
+    [gallery photo.*jpg]
+
 Lägga till ett bildgalleri, olika sorteringar:
 
     [gallery photo.*jpg name]
@@ -61,6 +70,14 @@ Konfigurera bildtexter i språkinställningarna:
     media/images/photo-2387365-fika-time.jpg: Fika är en viktig del av vardagen i Sverige. Bild: Taylor Franz
     media/images/photo-2493837-lake-and-forest.jpg: Sjö och skog på sommaren. Bild: Anatoliy Gromov
     media/images/photo-album/screenshot-2020-01.png: En liten webbplats av Adam Engel från Sverige.
+
+Välja filnamn med ett reguljärt uttryck::
+
+`photo.*jpg` = bildfiler som börjar med "photo" följt av vad som helst och "jpg"  
+`photo.*jpeg` = bildfiler som börjar med "photo" följt av vad som helst och "jpeg"  
+`photo-album/` = bildfiler från undermappen "photo-album" följt av vad som helst  
+`photo-album` = bildfiler som börjar med "photo-album" följt av vad som helst  
+`.*` = alla bildfiler 
 
 ## Inställningar
 
