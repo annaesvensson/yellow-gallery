@@ -36,7 +36,7 @@ Inhaltsdatei mit Bildergalerie:
     ---
     Das ist eine Beispielseite mit Bildergalerie.
 
-    [gallery photo.*jpg]
+    [gallery photo]
 
 Bildergalerie hinzufügen, unterschiedliche Sortierungen:
 
@@ -72,11 +72,11 @@ Bildunterschriften in den Spracheinstellungen festlegen:
 
 Dateinamen mit einem regulären Ausdruck auswählen:
 
+`photo` = Bilddateien die mit "photo" beginnen, gefolgt von irgendetwas  
 `photo.*jpg` = Bilddateien die mit "photo" beginnen, gefolgt von irgendetwas und "jpg"  
 `photo.*jpeg` = Bilddateien die mit "photo" beginnen, gefolgt von irgendetwas und "jpeg"  
 `photo-album/` = Bilddateien aus dem Unterverzeichnis "photo-album", gefolgt von irgendetwas  
 `photo-album` = Bilddateien die mit "photo-album" beginnen, gefolgt von irgendetwas  
-`.*` = alle Bilddateien  
 
 ## Einstellungen
 

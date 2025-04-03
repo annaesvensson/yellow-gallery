@@ -36,7 +36,7 @@ Content file with image gallery:
     ---
     This is an example page with image gallery.
 
-    [gallery photo.*jpg]
+    [gallery photo]
 
 Adding an image gallery, different sortings:
 
@@ -72,11 +72,11 @@ Configuring image captions in the language settings:
 
 Selecting file names with a regular expression:
 
+`photo` = image files starting with "photo" followed by whatever  
 `photo.*jpg` = image files starting with "photo" followed by whatever and "jpg"  
 `photo.*jpeg` = image files starting with "photo" followed by whatever and "jpeg"  
 `photo-album/` = image files from subfolder "photo-album" followed by whatever  
 `photo-album` = image files starting with "photo-album" followed by whatever  
-`.*` = all image files  
 
 ## Settings
 
