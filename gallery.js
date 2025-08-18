@@ -10,7 +10,11 @@ var initPhotoSwipeFromDOM = function() {
             el = thumbElements[i];
             if (el.nodeType!==1) continue;
             childElements = el.children;
-            size = el.getAttribute("data-size").split("x");
+            if (el.getAttribute("data-size")) {
+                size = el.getAttribute("data-size").split("x");
+            } else {
+                size = [0, 0];
+            }
             item = {
                 src: el.getAttribute("href"),
                 w: parseInt(size[0], 10),
@@ -132,9 +136,25 @@ var initPhotoSwipeFromDOM = function() {
             "bgOpacity", "allowPanToNext", "pinchToClose", "closeOnScroll", "escKey", "arrowKeys",
             "closeEl", "captionEl", "fullscreenEl", "zoomEl", "shareEl", "counterEl",
             "arrowEl", "preloaderEl", "tapToClose", "tapToToggleControls", "clickToCloseNonZoomable"]);
+        if (!options.hasOwnProperty("fullscreenEl")) {
+            options.fullscreenEl = false;
+        }
+        if (!options.hasOwnProperty("shareEl")) {
+            options.shareEl = false;
+        }
+        if (!options.hasOwnProperty("history")) {
+            options.history = false;
+        }
+        if (!options.hasOwnProperty("thumbSquare")) {
+            options.thumbSquare = true;
+        }
         options.getThumbBoundsFn = function(index) {
-            var thumbnail = items[index].el.children[0],
-            rect = thumbnail.getBoundingClientRect();
+            var thumbnail = items[index].el.children[0], rect;
+            if (thumbnail) {
+                rect = thumbnail.getBoundingClientRect();
+            } else {
+                rect = items[index].el.getBoundingClientRect();
+            }
             return { x:rect.left, y:rect.top + window.pageYOffset, w:rect.width };
         };
         options.addCaptionHTMLFn = function(item, captionEl, isFake) {
@@ -156,11 +176,20 @@ var initPhotoSwipeFromDOM = function() {
         }
         options.index = parseInt(index, 10);
         gallery = new PhotoSwipe(template, PhotoSwipeUI_Default, items, options);
+        gallery.listen("imageLoadComplete", function (index, item) {
+           if (item.w==0 || item.h==0) {
+               var img = new Image();
+               img.src = item.src;
+               item.w = img.naturalWidth;
+               item.h = img.naturalHeight;
+               gallery.updateSize(true);
+           }
+        });
         gallery.init();
     };
     
     // Initialise gallery and bind events
-    var elements = document.querySelectorAll(".photoswipe");
+    var elements = document.querySelectorAll(".gallery");
     for (var i=0, l=elements.length; i<l; i++) {
         elements[i].onclick = onClickGallery;
     }

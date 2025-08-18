@@ -2,7 +2,7 @@
 // Gallery extension, https://github.com/annaesvensson/yellow-gallery
 
 class YellowGallery {
-    const VERSION = "0.9.2";
+    const VERSION = "0.9.3";
     public $yellow;         // access to API
 
     // Handle initialisation
@@ -32,8 +32,8 @@ class YellowGallery {
             if ($this->yellow->extension->isExisting("image")) {
                 if (!is_array_empty($files)) {
                     $page->setLastModified($files->getModified());
-                    $output = "<div class=\"".($style!="simple" ? "photoswipe" : "gallery")."\" data-fullscreenel=\"false\" data-shareel=\"false\" data-history=\"false\"";
-                    if (substru($size, -1, 1)!="%") $output .= " data-thumbsquare=\"true\"";
+                    $output = "<div class=\"".($style!="simple" ? "gallery" : "gallery-simple")."\"";
+                    if (substru($size, -1, 1)=="%") $output .= " data-thumbsquare=\"false\"";
                     $output .= ">\n";
                     foreach ($files as $file) {
                         list($src, $width, $height) = $this->yellow->extension->get("image")->getImageInformation($file->fileName, $size, $size);

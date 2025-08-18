@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Gallery 0.9.2
+# Gallery 0.9.3
 
 Bildgalleri med popup.
 
