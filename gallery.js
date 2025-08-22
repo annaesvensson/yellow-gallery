@@ -1,6 +1,6 @@
 // Gallery extension, https://github.com/annaesvensson/yellow-gallery
 
-var initPhotoSwipeFromDOM = function() {
+var initGalleryFromDOM = function() {
 
     // Parse gallery items from DOM
     var parseElements = function(element) {
@@ -195,4 +195,4 @@ var initPhotoSwipeFromDOM = function() {
     }
 };
 
-window.addEventListener("DOMContentLoaded", initPhotoSwipeFromDOM, false);
+window.addEventListener("DOMContentLoaded", initGalleryFromDOM, false);
