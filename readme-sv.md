@@ -1,14 +1,14 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
+<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
 
 # Gallery 0.9.4
 
 Bildgalleri med popup.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Skärmdump"></p>
+<p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
 ## Hur man installerar ett tillägg
 
-[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-gallery/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-gallery/archive/refs/heads/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/readme-sv.md).
 
 ## Hur man lägger till ett bildgalleri
 
