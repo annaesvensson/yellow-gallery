@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Gallery 0.9.4
 
-Bildergalerie mit Popup.
+Bildergalerie mit Popup. Entwickelt von Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -89,6 +87,4 @@ Die folgenden Einstellungen können in der Datei `system/extensions/yellow-syste
 
 Diese Erweiterung enthält [PhotoSwipe 4.1.2](https://github.com/dimsemenov/photoswipe) von Dmitry Semenov. Danke für die gute Arbeit.
 
-## Entwickler
-
-Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
