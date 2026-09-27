@@ -1,4 +1,4 @@
-# Gallery 1.0.1
+# Gallery 1.0.2
 
 Bildgalleri med popup. Utvecklad av Anna Svensson.
 
